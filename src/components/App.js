@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import '../style/App.css';
+import React, { Component } from 'react'
+import '../style/App.css'
 
 class App extends Component {
-	render() {
-		return (
-			<React.Fragment>
-				<h1>React App!</h1>
-			</React.Fragment>
-		)
-	}
+  render() {
+    return (
+      <>
+        <h1>React App!</h1>
+      </>
+    )
+  }
 }
 
 export default App
